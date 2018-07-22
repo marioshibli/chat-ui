@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+	padding: 0;
+
+	
+	.spotim-header {
+		text-align: center;
+		background-color: #0082DD;
+		height: 150px;
+		padding: 20px;
+		color: white;
+		
+		.spotim-title {
+			font-size: 1.5em;
+		}
+	}
+  
+  
+	.spotim-body {
+		
+		margin-top:2px;
+		margin-bottom:2px;
+
+		.spotim-chat-header {
+			text-align: center;
+		}
+	  
+		.spotim-chat-body {
+			height: 300px;
+			overflow: auto;
+			margin-top:5px;
+			margin-bottom:5px;
+		}
+		
+		.spotim-chat-footer {
+		margin-bottom:5px;
+		}
+	}
+	
+	
+	.spotim-footer {
+		bottom: 0;
+		margin:0px;
+		padding: 5px;
+		text-align: center;
+		background-color: #0082DD;
+		color: white;
+	} 
+  
+  
+	.avatar {
+		vertical-align: middle;
+		width: 25 px;
+		height: 25px;
+		border: 1px solid green;
+		padding : 1px;
+		border-radius: 50% 15%;
+	}
+
+	
+	.avatar-user {
+		vertical-align: middle;
+		width: 25 px;
+		height: 25px;
+		border: 1px solid blue;
+		padding : 1px;
+		border-radius: 50% 15%;
+	}
+ 
+}
