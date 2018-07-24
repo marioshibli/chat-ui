@@ -1,5 +1,64 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+### My Submission - Mahran Shibly
+
+## Front End Practical Programming Challenge
+
+
+## A. Introduction 
+Dear candidate, thank you for taking the time to take our practical programming challenge, we truly appreciate it.  This challenge is your opportunity to showcase your practical skills and hopefully have fun while at it. Please go over the entire document before you start and feel free to contact us with any question whatsoever.
+
+
+## B. The Task
+Your task is to write a real-time chat room web app interface.
+You have flexibility and freedom of expression here, just make sure to address all the bullets in the specs.
+The app should contain one screen that shows a textbox to send messages, and a list of messages that were sent and received in this chat room from the moment the app loaded.
+
+
+## C. Boilerplate
+You can use a boilerplate to jump start:
+https://github.com/SpotIM/demo-chat-boilerplate
+To get started, clone the repository → npm install → npm start
+You can use any libraries or frameworks of your choice.
+The entry point in this boilerplate is src/index.js
+If you aren’t writing React, copy the content of src/index-no-react.js to get started.
+
+## D. Spec
+# 1. Message Creation Area
+   1. Area will be fixed to the bottom of the screen.
+   2. Text field for username. 
+   3. Textarea for text. 
+   4. Should be cleared after each message is sent.
+   5. Send button to send text messages.
+   6. Users can't send empty messages
+# 2. Message List Area
+   1. You'll render a list containing incoming chat messages, including your own messages. 
+   2. Rendered chat messages should show the avatar (if there is such), username and chat message.
+   3. Your own messages will have a different background color than other chat messages.
+# 3. Socket.IO integration
+   1. You will use the Spot.IM Socket.IO chat server in order to send and receive messages.
+Chat service endpoint:
+https://spotim-demo-chat-server.herokuapp.com
+Event name: spotim/chat
+See https://socket.io/docs/client-api/ for documentation on how to use this library.
+   2. When the user sends a message you should use socket io to send messages in the following format: {avatar:"...",username:"...",text:"..."'}, You may add additional fields if you like.
+   3. You should listen for and render incoming chat messages.
+
+
+   ## E. Submission
+   1. Push your finished work to a public GitHub repository under your account, named chat-ui. 
+   3. Leave screenshots in screenshots folder.
+
+
+   ## F. Key Points and Tips
+   1. You should use whatever JavaScript stack you're most comfortable with. We want to see you at your best.
+   2. Make sure your components and business logic are designed reasonably. They will be reviewed.
+   3. Write coherent code and meaningful comments where necessary.
+   4. Your UI should look somewhat presentable and logically positioned. It doesn't have to be perfect by any means, however. 
+   ****  We recommend using a library like Bootstrap, Semantic UI, Material UI or whatever you feel comfortable with.***
+   5. Good luck and have fun.
+********************************************************************************************************************************
+
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
